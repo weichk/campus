@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>acooly-app-parent</artifactId>
+        <groupId>com.acooly</groupId>
+        <version>4.2.0-SNAPSHOT</version>
+    </parent>
+    <groupId>com.qiudot.edu</groupId>
+    <artifactId>campus-parent</artifactId>
+    <version>1.0</version>
+
+    <name>campus Projects</name>
+    <packaging>pom</packaging>
+    <modules>
+        <module>campus-assemble</module>
+        <module>campus-core</module>
+        <module>campus-openapi</module>
+        <module>campus-facade</module>
+        <module>campus-test</module>
+    </modules>
+</project>
